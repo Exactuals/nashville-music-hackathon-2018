@@ -41,9 +41,13 @@ Your script should create the following output file, called "output.csv" using t
 |   5           |	7       |	9       |
 |   11          |	11      |	12      |
 
-Your solution must optimize memory consumption. An artificial memory constraint of 100 MB has been placed on the process so that all of the data cannot be loaded into memory. 
+Your solution must optimize memory consumption. An artificial memory constraint of 100 MB has been placed on the process so that all of the data cannot be loaded into memory. Implement your solution in the connected_components.py file provided in this repository. 
 
 
 ## Testing Your Results:
 
-To test your results, ...
+To test your results run the unittest in hackathon_tests.py:
+```
+python -m hackathon_tests
+```
+Good luck!
