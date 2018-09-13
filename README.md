@@ -6,7 +6,7 @@ To get started download the test data set here:
 
 https://www.dropbox.com/s/6ca927k9rqjwaq4/input.csv?dl=0 
 
-and clone this repo. Place the "input.csv" file into the root of this repository on your machine. 
+Clone this repo and place the "input.csv" file into the root of this repository on your machine. 
 
 This challenge uses Pandas as a requirement, so make sure you install the requirements: 
 
