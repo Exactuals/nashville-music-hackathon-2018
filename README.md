@@ -4,7 +4,7 @@
 
 To get started download the data set here: and create a local clone of this repository. 
 
-This challenge uses Pandas, so make sure you run: 
+This challenge uses Pandas as a requirement, so make sure you install the requirements: 
 
 ```
 pip install -r requirements.txt
