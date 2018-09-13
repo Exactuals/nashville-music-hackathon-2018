@@ -1,5 +1,15 @@
 # Nashville Music Hackathon 2018
 
+## Getting Started
+
+To get started download the data set here: and create a local clone of this repository. 
+
+This challenge uses Pandas, so make sure you run: 
+
+```
+pip install -r requirements.txt
+```
+
 ## Challenge
 
 Given a bipartite graph, you must write a function connected_components(filepath) that takes 
