@@ -31,7 +31,7 @@ For example, given the following input csv:
 | 11     | 12     |
 
 
-Your script should create the following output file, called "output.csv" using the "input.csv" provided.:
+Your script should create the following output file, called "output.csv" using the "input.csv" provided:
 
 |   cluster_id  |	node_x  |	node_y  |
 | ------------- | ------- | ------- |
@@ -40,6 +40,8 @@ Your script should create the following output file, called "output.csv" using t
 |   5           |	5       |	7       |
 |   5           |	7       |	9       |
 |   11          |	11      |	12      |
+
+Your solution must optimize memory consumption. An artificial memory constraint has been placed on the process so that all of the data cannot be loaded into memory. 
 
 
 ## Testing Your Results:
