@@ -1,2 +1,17 @@
 # nashville-music-hackathon-2018
-Nashville Music Hackathon materials for the event
+
+## Challenge
+
+Given a bipartite graph, you must write a function connected_components(filepath) that takes a filepath
+of a csv (format: node_x, node_y), computes the connected components, and
+outputs to a new csv called "output.csv". (format: cluster_id, node_x, node_y).
+
+For example, given the following input csv:
+
+| node_x | node_y |
+| -------| -------|
+| 1      | 2      |
+| 2      | 4      |
+| 5      | 7      |
+| 7      | 9      |
+| 11     | 12     |
