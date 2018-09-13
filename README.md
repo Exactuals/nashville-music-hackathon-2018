@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-To get started download the data set here: and create a local clone of this repository. 
+To get started download the test data set here: and clone this repo. 
 
 This challenge uses Pandas as a requirement, so make sure you install the requirements: 
 
