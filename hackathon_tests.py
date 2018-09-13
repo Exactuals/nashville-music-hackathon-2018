@@ -1,6 +1,8 @@
-import unittest
+import datetime
 import resource
 import time
+import unittest
+
 import pandas as pd
 
 from connected_components import connected_components
@@ -17,6 +19,7 @@ class TestConnectedComponents(unittest.TestCase):
         max_memory = 0
         memory_usage_refresh = .005  # Seconds
 
+        start_time = datetime.datetime.now()
         while (1):
             time.sleep(memory_usage_refresh)
             delta_mem = (resource.getrusage(resource.RUSAGE_SELF).ru_maxrss) - start_mem
@@ -27,7 +30,9 @@ class TestConnectedComponents(unittest.TestCase):
 
             # Check to see if the library call is complete
             if mythread.isShutdown():
-                break;
+                break
+        end_time = datetime.datetime.now()
+        print("Execution time: %s" % (end_time - start_time))
 
         # Read output.csv
         data = pd.read_csv('output.csv')
