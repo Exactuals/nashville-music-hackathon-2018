@@ -16,7 +16,8 @@ For example, given the following input csv:
 | 7      | 9      |
 | 11     | 12     |
 
-Your script should create the following output file, called "output.csv":
+
+Your script should create the following output file, called "output.csv" using the "input.csv" provided.:
 
 |   cluster_id  |	node_x  |	node_y  |
 | ------------- | ------- | ------- |
@@ -25,3 +26,8 @@ Your script should create the following output file, called "output.csv":
 |   5           |	5       |	7       |
 |   5           |	7       |	9       |
 |   11          |	11      |	12      |
+
+
+## Testing Your Results:
+
+To test your results, ...
